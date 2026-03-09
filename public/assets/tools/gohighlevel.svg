@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 225" fill="none">
+  <polygon points="0 56 124 56 62 0" fill="currentColor"/>
+  <rect x="39" y="56" width="44" height="169" fill="currentColor"/>
+  <polygon points="62 56 124 56 83 90 83 225 62 205" fill="currentColor"/>
+
+  <polygon points="84 133 208 133 146 76" fill="currentColor"/>
+  <rect x="124" y="133" width="44" height="92" fill="currentColor"/>
+  <polygon points="146 133 208 133 168 167 168 225 146 210" fill="currentColor"/>
+
+  <polygon points="166 56 290 56 228 0" fill="currentColor"/>
+  <rect x="206" y="56" width="44" height="169" fill="currentColor"/>
+  <polygon points="228 56 290 56 250 90 250 225 228 205" fill="currentColor"/>
+</svg>

@@ -1,0 +1,302 @@
+.page {
+  min-height: 100svh;
+  background:
+    radial-gradient(980px 520px at 12% -18%, rgba(89, 102, 217, 0.24), transparent),
+    radial-gradient(760px 360px at 88% -14%, rgba(224, 26, 79, 0.18), transparent),
+    var(--brand-black);
+  color: var(--brand-white);
+}
+
+.main {
+  padding: clamp(28px, 5vw, 72px) 0 clamp(56px, 8vw, 100px);
+}
+
+.hero {
+  border: 1px solid rgba(244, 246, 251, 0.16);
+  border-radius: 30px;
+  padding: clamp(20px, 3.2vw, 34px);
+  background:
+    linear-gradient(145deg, rgba(12, 14, 24, 0.9), rgba(19, 21, 35, 0.88)),
+    radial-gradient(70% 90% at 8% 10%, rgba(89, 102, 217, 0.2), transparent),
+    radial-gradient(76% 88% at 90% 80%, rgba(224, 26, 79, 0.16), transparent);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.16),
+    0 20px 42px rgba(2, 3, 8, 0.5);
+}
+
+.eyebrow {
+  display: inline-flex;
+  border: 1px solid rgba(244, 246, 251, 0.28);
+  border-radius: 999px;
+  padding: 0.26rem 0.72rem;
+  color: rgba(244, 246, 251, 0.9);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  background: rgba(8, 10, 18, 0.42);
+}
+
+.hero h1 {
+  margin-top: 1rem;
+  font-size: clamp(2rem, 4.8vw, 4rem);
+  letter-spacing: -0.025em;
+}
+
+.hero p {
+  margin-top: 0.95rem;
+  max-width: 68ch;
+  color: rgba(244, 246, 251, 0.9);
+}
+
+.section {
+  margin-top: clamp(28px, 5vw, 56px);
+}
+
+.section h2 {
+  font-size: clamp(1.5rem, 3vw, 2.3rem);
+  letter-spacing: -0.018em;
+}
+
+.sectionIntro {
+  margin-top: 0.65rem;
+  color: var(--brand-muted);
+}
+
+.colorGrid {
+  margin-top: 1.3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.colorCard {
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid rgba(244, 246, 251, 0.14);
+  background: rgba(10, 12, 20, 0.5);
+  backdrop-filter: blur(8px) saturate(140%);
+  -webkit-backdrop-filter: blur(8px) saturate(140%);
+}
+
+.swatch {
+  height: 84px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  margin-bottom: 0.8rem;
+}
+
+.tokenName {
+  font-family: var(--font-inter-tight), "Inter Tight", sans-serif;
+  font-size: 0.95rem;
+}
+
+.tokenValue {
+  margin-top: 0.35rem;
+  color: rgba(244, 246, 251, 0.95);
+  font-size: 0.9rem;
+}
+
+.tokenUsage {
+  margin-top: 0.3rem;
+  color: var(--brand-muted);
+  font-size: 0.86rem;
+}
+
+.gradientRow {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.gradientCard {
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid rgba(244, 246, 251, 0.14);
+  background: rgba(10, 12, 20, 0.46);
+}
+
+.gradientTitle {
+  font-family: var(--font-inter-tight), "Inter Tight", sans-serif;
+}
+
+.gradientCard p {
+  margin-top: 0.65rem;
+  font-size: 0.9rem;
+  color: rgba(244, 246, 251, 0.86);
+}
+
+.gradientSwatchCta,
+.gradientSwatchPage {
+  margin-top: 0.6rem;
+  height: 68px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.gradientSwatchCta {
+  background: linear-gradient(140deg, rgba(49, 56, 108, 0.92), rgba(75, 46, 121, 0.9) 52%, rgba(131, 36, 79, 0.92));
+}
+
+.gradientSwatchPage {
+  background:
+    radial-gradient(1000px 520px at 10% -18%, rgba(89, 102, 217, 0.26), transparent),
+    radial-gradient(760px 380px at 88% -12%, rgba(224, 26, 79, 0.2), transparent),
+    radial-gradient(1200px 640px at 50% 120%, rgba(62, 70, 156, 0.16), transparent),
+    #06070b;
+}
+
+.typeShowcase {
+  margin-top: 1.2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.typeCard {
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid rgba(244, 246, 251, 0.14);
+  background: rgba(10, 12, 20, 0.48);
+}
+
+.typeCard h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.6rem;
+}
+
+.specimenRegular {
+  font-weight: 400;
+}
+
+.specimenSemibold {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.specimenBold {
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+
+.specimenItalic {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.specimenDisplay {
+  font-family: var(--font-inter-tight), "Inter Tight", sans-serif;
+  font-size: clamp(1.2rem, 2.2vw, 1.8rem);
+  letter-spacing: -0.015em;
+}
+
+.tableWrap {
+  margin-top: 1.2rem;
+  overflow-x: auto;
+  border: 1px solid rgba(244, 246, 251, 0.14);
+  border-radius: 16px;
+  background: rgba(9, 11, 19, 0.62);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.78rem 0.82rem;
+  border-bottom: 1px solid rgba(244, 246, 251, 0.1);
+  font-size: 0.9rem;
+}
+
+.table th {
+  font-family: var(--font-inter-tight), "Inter Tight", sans-serif;
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(244, 246, 251, 0.78);
+  background: rgba(16, 19, 31, 0.9);
+}
+
+.table td code {
+  font-family: var(--font-inter), "Inter", sans-serif;
+  font-size: 0.83rem;
+  color: rgba(244, 246, 251, 0.95);
+}
+
+.radiusSamples {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.radiusSample {
+  min-width: 96px;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid rgba(244, 246, 251, 0.22);
+  background: rgba(12, 15, 24, 0.64);
+  text-align: center;
+  font-size: 0.84rem;
+}
+
+.notesSection ul {
+  margin: 0.9rem 0 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.45rem;
+  color: rgba(244, 246, 251, 0.92);
+}
+
+@media (max-width: 700px) {
+  .main {
+    padding-top: 22px;
+  }
+
+  .table {
+    min-width: 640px;
+  }
+}
+
+@media print {
+  :global(body) {
+    background: #ffffff !important;
+    color: #121520 !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .page {
+    background: #ffffff !important;
+    color: #121520 !important;
+  }
+
+  .main {
+    width: 100%;
+    padding: 0;
+  }
+
+  .hero,
+  .colorCard,
+  .gradientCard,
+  .typeCard,
+  .tableWrap {
+    break-inside: avoid;
+    border-color: rgba(18, 21, 32, 0.2);
+    background: #ffffff !important;
+    box-shadow: none;
+  }
+
+  .hero p,
+  .sectionIntro,
+  .tokenUsage,
+  .table td,
+  .notesSection ul {
+    color: #3f465a !important;
+  }
+}
