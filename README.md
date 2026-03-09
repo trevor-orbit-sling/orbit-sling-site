@@ -39,9 +39,20 @@ This serves the `out/` directory at `http://localhost:4173`.
 
 ## Deploy to Vercel
 
-- Import this `site/` project into Vercel.
-- Framework preset: Next.js.
-- Build command: `npm run build`
-- Output directory: `out`
+This repo now deploys directly to `https://orbitsling.com`.
 
-Vercel can also auto-detect these settings.
+```bash
+npm run deploy:prod
+```
+
+After deploy, verify both hosts:
+
+```bash
+npm run verify:prod
+```
+
+Notes:
+
+- `orbitsling.com` is the primary host.
+- `www.orbitsling.com` should stay attached in Vercel so TLS is valid there, but it should redirect to the apex host through `vercel.json`.
+- The linked Vercel project is `orbit-sling-site`.

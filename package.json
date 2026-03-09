@@ -7,7 +7,9 @@
     "build": "next build",
     "preview": "serve out -l 4173",
     "lint": "eslint",
-    "qa:final": "node scripts/final-qa.mjs"
+    "qa:final": "node scripts/final-qa.mjs",
+    "deploy:prod": "npm run build && npx -y vercel deploy --prod --yes",
+    "verify:prod": "curl -I https://orbitsling.com && curl -I https://www.orbitsling.com"
   },
   "dependencies": {
     "next": "16.1.6",

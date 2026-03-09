@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.orbitsling.com"
+        }
+      ],
+      "destination": "https://orbitsling.com/$1",
+      "permanent": true
+    }
+  ]
+}
